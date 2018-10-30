@@ -1,0 +1,7 @@
+---
+# tasks file for mariuszczyz.centos-webtatic
+
+- name: Install Webtatic repository
+  yum:
+    name: https://mirror.webtatic.com/yum/el7/webtatic-release.rpm
+    state: present
